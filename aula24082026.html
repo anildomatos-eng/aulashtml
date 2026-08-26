@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 24082026</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        h3{
+            background-color: blue;
+            color: red;
+            font-size: 300%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 100%;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body style="background-color: antiquewhite;">
+    <header>
+        <img src="img/ilha03.jpg" alt="" width="100%" height="400px">
+    </header>
+    <nav style="background-color: black; color: white;">
+        <ul>
+            <li>Home</li>
+            <li>Sobre</li>
+            <li>Contatos</li>
+        </ul>
+    </nav>
+    <main>
+        <p style="color: brown;">Conteudo principal</p>     
+        <article style="font-family: 'Times New Roman', Times, serif;">Conteudo independente</article>   
+        <section style="font-size: 200%;">
+            <p style="text-align: center;">Saiba Mais</p>            
+        </section>
+        <aside>
+            <p>Anuncios</p>
+            <p>Glossarios</p>
+        </aside>
+
+        <h3>Aprendendo sobre API</h3>
+        <video controls width="640" height="360" poster="">
+            <source src="video/videoplayback (1).mp4" 
+            type="video/mp4">
+            <source src="video/videoplayback.mp4" 
+            type="video/webm"> 
+            <a href="">Baixe o video aqui</a>
+        </video>
+
+        <h3>Musicas Favoritas</h3>
+        <audio controls >
+            <source src="audio/ytmp3free.cc_dudu-nobre-vou-botar-teu-nome-na-macumba-quem-e-ela-youtubemp3free.org.mp3" type="audio/mp3">
+            <source src="audio/ytmp3free.cc_xande-de-pilares-clareouta-escrito-dvd-esse-menino-sou-eu-ao-vivo-youtubemp3free.org.mp3" type="audio/mp3">
+        </audio>
+
+        <form action="" method="post">
+            <label for="">Nome</label>
+            <input type="text" name="txtNome" 
+            placeholder="Informe seu nome" required
+            minlength="1" maxlength="10">
+            <br/>
+            <label for="">Email</label>
+            <input type="email" name="txtEmail" 
+            placeholder="Informe seu email" required>
+            <br/>
+            <label for="">Senha</label>
+            <input type="password" name="txtSenha" 
+            placeholder="Informe sua senha" required>
+            <br/>
+            <label for="">Idade</label>
+            <input type="number" name="txtIdade" 
+            placeholder="Informe sua idade" required>
+            <br/>
+            <label for="">Data</label>
+            <input type="date" name="txtData" 
+            placeholder="Selecione a data" required>
+            <br/>
+            <label for="">Ranger</label>
+            <input type="range" name="txtRange" 
+            placeholder="Informe o range" required>
+            <br/>
+            <label for="">Cor</label>
+            <input type="color" name="txtCor" 
+            placeholder="Informe sua cor" required>
+            <br/>
+            <input type="submit" name="txtEnviar" value="Enviar">
+
+            <h4>Qual é a sua Prefenrecia</h4>
+            <input type="checkbox" name="txtCarro" value="Fiat">Fiat
+            <input type="checkbox" name="txtCarro" value="Gol">Gol
+            <input type="checkbox" name="txtCarro" value="Corola">Corola
+            <input type="checkbox" name="txtCarro" value="Sportage">Sportage
+            <br>
+            <h4>Qual é a sua fruta preferida?</h4>
+            <input type="radio" name="txtFruta" value="Uva"> Uva
+            <input type="radio" name="txtFruta" value="Pera"> Pera
+            <input type="radio" name="txtFruta" value="Manga"> Manga
+            <input type="radio" name="txtFruta" value="Abacaxi"> Abacaxi
+
+            <textarea name="txtResumo">
+            </textarea>
+            
+            <select name="txtSelecione" id="">
+                <option value="Bahia">Bahia</option>
+                <option value="Vitoria">Vitoria</option>
+                <option value="São Paulo">São Paulo</option>
+            </select>
+
+            <button>Enviar</button>
+        </form>
+
+        
+
+    </main>
+    <footer>
+        <p>Rodape</p>
+    </footer>
+</body>
+</html>
